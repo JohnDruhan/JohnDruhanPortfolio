@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BootstrapPortfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">John F Druhan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <span class="navbar-text">
+            Digital Media Specialist
+        </span>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html" id="logo">John F Druhan</a>
+            </div>
+            <button class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="page-nav-collapse">
+                <ul class="nav navbar-nav ml-auto">
+                    <li>
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START CENTER SECTION -->
+
+<div class="container contentpadding">
+
+    <div class="row row-grid">
+        <div class="col-md-8 col-sm-12">
+            <div class="maincontent">
+                <div class="sizeboost">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="contentline">
+                </div>
+
+                
+                    <div class="form" id="contact-form">
+                        <form action="mailto:jfrancisdruhan@gmail.com" method="post" enctype="text/plain">
+                            <ul>
+                                <li>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Please input your Name" required="required">
+                                </li>
+                    
+                                <li>
+                                    <label for="phone">Phone Number:</label>
+                    
+                                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                        placeholder="123-456-7890" required>
+                    
+                                    <span class="note">Format: 123-456-7890</span>
+                                </li>
+                    
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Example@gmail.com" required="required">
+                                </li>
+                                <li>
+                                    <label for="message">Message</label>
+                                    <textarea placeholder="Your Message" name="message" id="message" required="required"></textarea>
+                                </li>
+                    
+                            </ul>
+                            
+                            <input type="submit" value="Send" class="btn btn-primary" value="Submit Button">
+                            <input type="reset" value="Reset" class="btn btn-warning" value="Submit Button">
+                            
+                        </form>
+                    </div>
+
+                
+
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+            <div class="sidebar">
+                <h3> Connect with Me </h3>
+                <div class="sidebarline">
+                </div>
+                <div class="table">
+                    <ul style="list-style-type:none">
+                        <li><a href="https://github.com/johnisabella">
+                                <img src="assets/images/Github.png" alt="Github"
+                                    style="width:58px;height:58px;border:0;" </a> </li> <li><a
+                                    href="https://www.linkedin.com/in/john-isabella-4486564">
+                                    <img src="assets/images/LinkedIn.png" alt="LinkedIn"
+                                        style="width:58px;height:58px;border:0;" </a> </li> <li><a
+                                        href="https://stackexchange.com/users/12064659/john-isabella">
+                                        <img src="assets/images/Stack.png" alt="Stack"
+                                            style="width:58px;height:58px;border:0;" </a> </li> </ul> </div> </div>
+                                            </div> 
+                                        </div>
+
+</div>
+    <!-- END CENTER SECTION -->
+
+    <!-- START FOOTER -->
+    <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright
+        </p>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </script>
+
+
+</body>
+
+</html>
